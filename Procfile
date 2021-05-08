@@ -1,1 +1,1 @@
-worker: ruby bot.rb
+worker: ruby lib/bot.rb

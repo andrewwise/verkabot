@@ -30,5 +30,5 @@ bundle install
 An then finally to run the bot:
 
 ```bash
-ruby bot.rb
+ruby lib/bot.rb
 ```
