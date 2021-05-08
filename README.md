@@ -11,6 +11,7 @@ A Eurovision themed Discord bot written in Ruby using the [offical Discord API g
 * Counts down to the Eurovision final daily in the 30 days up to it.
 * Replies with random trivia when asked.
 * Replies with random gifs when asked.
+* Replied with random videos when asked.
 
 ## Developing
 
