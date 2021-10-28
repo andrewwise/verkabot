@@ -4,7 +4,7 @@ require 'discordrb'
 bot = Discordrb::Bot.new token: ENV['DISCORD_BOT_TOKEN']
 
 now = Date.today
-eurovision = Date.new(2021,5,22)
+eurovision = Date.new(2022,5,14)
 daystoeurovision = eurovision.mjd - now.mjd
 
 case daystoeurovision
