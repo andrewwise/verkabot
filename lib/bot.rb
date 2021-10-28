@@ -38,7 +38,7 @@ end
 
 bot.mention(containing: not!(mention_words.used_words)) do |event|
   now = Date.today
-  eurovision = Date.new(2021,5,22)
+  eurovision = Date.new(2022,5,14)
 
   daystoeurovision = eurovision.mjd - now.mjd
 
