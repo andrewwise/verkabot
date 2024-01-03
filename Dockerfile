@@ -13,5 +13,8 @@ RUN bundle install
 # Copy the application code into the container
 COPY . .
 
+# Expose port 3000 to the Docker host, so we can access it
+EXPOSE 3000
+
 # Set the default command to run the application
 CMD ["ruby", "lib/bot.rb"]
